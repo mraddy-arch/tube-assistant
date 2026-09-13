@@ -1,0 +1,14 @@
+# Project-specific overrides
+# Exclude build artifacts
+public/index.html linguist-vendored
+vendor/* linguist-vendored
+
+*.ts linguist-detectable  
+
+*.min.js linguist-generated
+Cargo.lock linguist-generated
+
+*.woff binary
+build/* linguist-vendored
+*.jpeg binary
+src/*.ts linguist-detectable
